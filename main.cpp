@@ -229,7 +229,7 @@ void testTransferFunctions(unsigned BitWidth, unsigned ShiftAmount) {
 }
 
 int main() {
-  for (unsigned BitWidth = 4; BitWidth <= 6; ++BitWidth) {
+  for (unsigned BitWidth = 4; BitWidth <= 16; ++BitWidth) {
     std::cout << "Testing with bitwidth: " << BitWidth << "\n";
     testTransferFunctions(BitWidth, 1);
     std::cout << "\n";
